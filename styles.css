@@ -1,0 +1,33 @@
+.outter_div{
+width: fit-content;
+margin: 40px;
+border: 2px dashed black;
+position: relative;
+}
+
+.inner_div{
+width: 100px;
+height: 100px;
+border-radius: 1em;
+background-color: rgb(196, 104, 123);
+padding: 10px;
+display: inline-block;
+font-size: large;
+color: aliceblue;
+}
+
+.exception{
+    background-color: rgb(75, 169, 72);
+}
+
+#second_row_exception{
+position: relative;
+top: 30px;
+left: 30px;
+}
+#thired_row_exception{
+position: absolute;
+top: 20px;
+left: 20px;
+}
+
